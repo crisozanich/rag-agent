@@ -1,0 +1,6 @@
+.idea/
+.venv
+.env
+.DS_Store
+.vscode
+resume_db
