@@ -18,26 +18,19 @@ Delivered innovative solutions for digital payments, retail, and credit analysis
 ## 🌟 Project Highlights
 This RAG Agent integrates retrieval mechanisms with state-of-the-art generative models to enable:
 
-Precise Query Understanding: Uses AI to break down complex queries.
-Dynamic Knowledge Retrieval: Connects to a structured repository of information for real-time answers.
-Actionable Outputs: Delivers concise, relevant, and actionable insights.
-Why I Built This
-As someone deeply engaged in AI and scalable software systems, I’m passionate about bridging the gap between theoretical advancements and practical applications. This RAG Agent is part of my ongoing mission to harness AI for solving real-world challenges.
+Precise Query Understanding: Uses AI to break down complex queries.  
+Dynamic Knowledge Retrieval: Connects to a structured repository of information for real-time answers.  
+Actionable Outputs: Delivers concise, relevant, and actionable insights.  
+Why I Built This  
+As someone deeply engaged in AI and scalable software systems, I’m passionate about bridging the gap between theoretical advancements and practical applications. This RAG Agent is part of my ongoing mission to harness AI for solving real-world challenges.  
 
 
 ## 🛠️ Tech Stack
-Programming Language: Python
-Libraries & Frameworks: ChatGPT, LangChain, Gradio
-Storage: ChromaDB Vector Database
+Programming Language: Python  
+Libraries & Frameworks: ChatGPT, LangChain, Gradio  
+Storage: ChromaDB Vector Database  
 
 
 ## 🤝 Collaboration
 If you’re interested in collaborating, contributing, or discussing the intersections of AI and enterprise software, feel free to reach out! I’m always excited to explore innovative ideas and create impactful solutions together.
-
-
-## 📬 Get in Touch
-GitHub: Your GitHub Profile
-LinkedIn: Your LinkedIn Profile
-Email: Your Email Address
-Let’s innovate together! 🚀
 
