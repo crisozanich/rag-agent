@@ -7,6 +7,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
+import gradio as gr
 
 load_dotenv()
 
@@ -36,11 +37,8 @@ PROMPT_TEMPLATE = """
 prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
 model = ChatOpenAI()
 
-while True:
-    query = input("Query: ")
-    if query == "/bye":
-        exit()
 
+def run_query(query):
     docs_chroma = db_chroma.similarity_search_with_score(query, k=5)
 
     context_text = "\n\n".join([doc.page_content for doc, _score in docs_chroma])
@@ -48,4 +46,9 @@ while True:
     prompt = prompt_template.format(context=context_text, question=query)
 
     response = model.invoke(prompt).content
-    print(response + '\n')
+    return response + '\n'
+
+def process_response(message, history):
+    return run_query(message)
+
+gr.ChatInterface(process_response, type="messages").launch()
