@@ -1,6 +1,6 @@
-# RAG Agent: Personal Agent to chat about my professional journey 🚀
-Welcome to the RAG Agent project! This repository showcases a cutting-edge AI agent built using Python to implement Retrieval-Augmented Generation, combining the power of advanced language models with domain-specific knowledge retrieval.
-If you to know more about my professional journey, just ask the Agent ;)
+# My Personal RAG Agent: Agent to chat about my professional journey 🚀
+Welcome to the my Personal RAG Agent project! This repository showcases a cutting-edge AI agent built using Python to implement Retrieval-Augmented Generation, combining the power of advanced language models with domain-specific knowledge retrieval.
+If you want to know more about my professional journey, just ask the Agent ;)
 
 
 ## 🧑‍💻 About Me
