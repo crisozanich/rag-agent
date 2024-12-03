@@ -39,6 +39,7 @@ model = ChatOpenAI()
 
 
 def run_query(query):
+    print(query + '\n')
     docs_chroma = db_chroma.similarity_search_with_score(query, k=5)
 
     context_text = "\n\n".join([doc.page_content for doc, _score in docs_chroma])
@@ -51,4 +52,4 @@ def run_query(query):
 def process_response(message, history):
     return run_query(message)
 
-gr.ChatInterface(process_response, type="messages").launch()
+gr.ChatInterface(process_response, type="messages").launch(share=True)
